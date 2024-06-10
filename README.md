@@ -59,8 +59,8 @@ Follow the detailed steps provided in the PDF to set up the scenario in Copilot 
 
 
 Note : 
-Once you import the power automate flows, you will be prompted on the Power Platform to make an SAP ERP connection.
-Therefore, efore you attempt to recreate this flow, complete the prerequisite steps highlighted in the PDF.
+Once you import the Power Automate flows, you will be prompted on the Power Platform to make an SAP ERP connection.Therefore, when you attempt to recreate this flow, complete the prerequisite steps highlighted in the PDF before you try to import the flow.
+Each flow is named after the flow mentioned in the PDF and are the .zip folders on this repo.
 
 
 
