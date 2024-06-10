@@ -3,7 +3,7 @@ SAP systems have all the data related to business processes while the Microsoft 
 
 Microsoft offers powerful AI and low code development tools that are easily connected to SAP systems to develop your own intelligent copilots and bots to enhance your business processes and workflows. 
 
-To demonstrate how seamless and easy it is to utilize AI using Microsoft AI tools we will explore a scenario that demonstrates how SAP data along with Copilot Studio, Azure OpenAI, Microsoft Teams, and the Microsoft Power Platform can be leveraged to streamline a business process.
+To demonstrate how seamless and easy it is to utilize AI using Microsoft AI tools, we will explore a scenario that demonstrates how SAP data along with Copilot Studio, Azure OpenAI, Microsoft Teams, and the Microsoft Power Platform can be leveraged to streamline a business process.
 
 ## Scenario Overiew and steps
 
@@ -11,7 +11,7 @@ To demonstrate how seamless and easy it is to utilize AI using Microsoft AI tool
 A customer contacts a salesperson with a complaint about a delayed order.
 
 ### 2. Order Investigation
-The salesperson uses a chatbot deployed on Microsoft Teams to investigate the customer's orders, leveraging AI to gain summarized insights from Outlook Emails and Teams’ messages, combined with direct data from the SAP system.
+The salesperson uses a chatbot deployed on Microsoft Teams to investigate the customer's orders by leveraging AI to gain summarized insights from Outlook Emails and Teams’ messages, combined with direct data from the SAP system.
 
 ### 3. Generated Report
 After identifying the issue, the salesperson uses AI to generate a report summarizing the conversation and the cause of the delay, which is then sent to the customer via email through the chatbot interaction.
@@ -35,7 +35,7 @@ This repository contains Power Automate flows and a detailed PDF with steps on h
 ## Getting Started
 Follow the detailed steps provided in the PDF to set up the scenario in Copilot Studio and customize it according to your business needs.
 
-## Steps to import the Power Automate Flow
+## Steps to import the Power Automate Flow in your own environment
 1) Go to my flows in Power Automate and Click on import, under import click on "Import Package
 
  ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerAutomateImport.png)
