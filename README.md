@@ -50,25 +50,16 @@ Follow the detailed steps provided in the PDF to set up the scenario in Copilot 
  
 
 
-3) Once the upload is complete, create the own respective connections and add them to the flows by clicking on "Select during import". Steps on how to create the SAP connection are in the instruction PDF, for MS365 connection you can sign in).
-
+3) Once the upload is complete, create the own respective connections and add them to the flows by clicking on "Select during import". 
  ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerAutomate2.png)
 
 
 
 
 
-   
-   
-
-
-
----
-
-
 Note : 
 Once you import the power automate flows, you will be prompted on the Power Platform to make an SAP ERP connection.
-Therefore, efore you attempt to recreate this flow, complete the prereuisite steps highlighted in the PDF.
+Therefore, efore you attempt to recreate this flow, complete the prerequisite steps highlighted in the PDF.
 
 
 
