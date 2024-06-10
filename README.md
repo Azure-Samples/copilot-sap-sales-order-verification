@@ -1,57 +1,76 @@
-# Project Name
+# Streamlining SAP Processes with Azure OpenAI, Copilot Studio, and Power Platform 
+SAP systems have all the data related to business processes while the Microsoft Graph has all the data related to collaboration such as emails, chats, schedules etc. To use both these forms of data together  with AI would transform the business processes of many organizations and make them more efficient.
 
-(short, 1-3 sentenced, description of the project)
+Microsoft offers powerful AI and low code development tools that are easily connected to SAP systems to develop your own intelligent copilots and bots to enhance your business processes and workflows. 
 
-## Features
+To demonstrate how seamless and easy it is to utilize AI using Microsoft AI tools we will explore a scenario that demonstrates how SAP data along with Copilot Studio, Azure OpenAI, Microsoft Teams, and the Microsoft Power Platform can be leveraged to streamline a business process.
 
-This project framework provides the following features:
+## Scenario Overiew and steps
 
-* Feature 1
-* Feature 2
-* ...
+### 1. Customer Inquiry and Complaint
+A customer contacts a salesperson with a complaint about a delayed order.
+
+### 2. Order Investigation
+The salesperson uses a chatbot deployed on Microsoft Teams to investigate the customer's orders, leveraging AI to gain summarized insights from Outlook Emails and Teams’ messages, combined with direct data from the SAP system.
+
+### 3. Generated Report
+After identifying the issue, the salesperson uses AI to generate a report summarizing the conversation and the cause of the delay, which is then sent to the customer via email through the chatbot interaction.
+
+## Technologies in Play
+
+  ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/scenariotechincalflow.png)
+  
+This scenario showcases the integration of various Microsoft technologies, including:
+- Copilot Studio
+- Azure OpenAI
+- Microsoft Teams
+- Microsoft Power Platform
+
+
+
+## Repository Contents
+This repository contains Power Automate flows and a detailed PDF with steps on how to build out this scenario using these flows in Copilot Studio.
+
 
 ## Getting Started
+Follow the detailed steps provided in the PDF to set up the scenario in Copilot Studio and customize it according to your business needs.
 
-### Prerequisites
+## Steps to import the Power Automate Flow
+1) Go to my flows in Power Automate and Click on import, under import click on "Import Package
 
-(ideally very short, if any)
+ ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerAutomateImport.png)
 
-- OS
-- Library version
-- ...
+ 
+ 
 
-### Installation
+2) Upload the Zip folder
 
-(ideally very short)
+ ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerAutomateImport1.png)
 
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
+ 
 
 
-## Demo
+3) Once the upload is complete, create the own respective connections and add them to the flows by clicking on "Select during import". Steps on how to create the SAP connection are in the instruction PDF, for MS365 connection you can sign in).
 
-A demo app is included to show how to use the project.
+ ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerAutomate2.png)
 
-To run the demo, follow these steps:
 
-(Add steps to start up the demo)
 
-1.
-2.
-3.
 
-## Resources
 
-(Any additional resources or related projects)
+   
+   
 
-- Link to supporting information
-- Link to similar sample
-- ...
+
+
+---
+
+
+Note : 
+Once you import the power automate flows, you will be prompted on the Power Platform to make an SAP ERP connection.
+Therefore, efore you attempt to recreate this flow, complete the prereuisite steps highlighted in the PDF.
+
+
+
+
+
