@@ -16,6 +16,9 @@ The salesperson uses a chatbot deployed on Microsoft Teams to investigate the cu
 ### 3. Generated Report
 After identifying the issue, the salesperson uses AI to generate a report summarizing the conversation and the cause of the delay, which is then sent to the customer via email through the chatbot interaction on Teams.
 
+## Video Demonstration
+ [![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/youtubevideo.png.png)](https://www.youtube.com/watch?v=ccVmaZKv-ns)
+
 ## Technologies in Play
 
   ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/scenariotechincalflow.png)
