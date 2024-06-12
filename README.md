@@ -1,5 +1,5 @@
 # Streamlining SAP Processes with Azure OpenAI, Copilot Studio, and Power Platform 
-SAP systems have all the data related to business processes while the Microsoft Graph has all the data related to collaboration such as emails, chats, schedules etc. To use both these forms of data together  with AI would transform the business processes of many organizations and make them more efficient.
+SAP systems have data related to business processes while the Microsoft Graph has data related to collaboration such as emails, chats, schedules etc. To use both these forms of data together with AI would transform the business processes of many organizations and make them more efficient.
 
 Microsoft offers powerful AI and low code development tools that are easily connected to SAP systems to develop your own intelligent copilots and bots to enhance your business processes and workflows. 
 
@@ -14,7 +14,7 @@ A customer contacts a salesperson with a complaint about a delayed order.
 The salesperson uses a chatbot deployed on Microsoft Teams to investigate the customer's orders by leveraging AI to gain summarized insights from Outlook Emails and Teams’ messages, combined with direct data from the SAP system.
 
 ### 3. Generated Report
-After identifying the issue, the salesperson uses AI to generate a report summarizing the conversation and the cause of the delay, which is then sent to the customer via email through the chatbot interaction.
+After identifying the issue, the salesperson uses AI to generate a report summarizing the conversation and the cause of the delay, which is then sent to the customer via email through the chatbot interaction on Teams.
 
 ## Technologies in Play
 
