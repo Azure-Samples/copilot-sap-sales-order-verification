@@ -9,16 +9,19 @@ IF SUFFICIENT INFORMATION IS NOT PROVIDED VIA THE FOLLOWING TEMPLATE THE ISSUE M
 - [ ] bug report -> please search issues before submitting
 - [ ] feature request
 - [ ] documentation issue or request
-- [ ] regression (a behavior that used to work and stopped in a new release)
-```
 
-### Minimal steps to reproduce
+
+### Minimal steps to reproduce:
+>
+### Images of the error.
 >
 
-### Any log messages given by the failure
+
+### Any log messages given by the failure:
 >
 
-### Expected/desired behavior
+### Expected/desired behavior:
+
 
 
 ### Mention any other details that might be useful
