@@ -58,12 +58,13 @@ Follow the detailed steps provided in the PDF to set up the scenario in Copilot 
 ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerAutomate2.png)
 
 
-
-
-
 Note : 
 Once you import the Power Automate flows, you will be prompted on the Power Platform to make an SAP ERP connection.Therefore, when you attempt to recreate this flow, complete the prerequisite steps highlighted in the PDF before you try to import the flow.(The PDF is called 'Steps to recreate scenario.pdf' on this repo.) 
 Each flow is named after the flow mentioned in the PDF and are the .zip folders on this repo.
+
+## Suggestions/Contributions:
+If you face issues while replicating the scenarios or have suggestions on new features/flows you would like to see, you could use [GitHub Issues](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/issues) to report errors or request new features. For discussions/conversations, please use [GitHub Discussions](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/discussions/categories/ideas).
+Looking forward to your feedback.
 
 
 
