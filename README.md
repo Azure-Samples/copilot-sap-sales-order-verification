@@ -52,10 +52,14 @@ Follow the detailed steps provided in the PDF to set up the scenario in Copilot 
 
  
 
-3) Once the upload is complete, create the own respective connections and add them to the flows by clicking on "Select during import".
+3) Once the upload is complete, create the own respective connections and add them to the flows by clicking on "Select during import" and once that is done click on 'Import' at the bottom.
 
 
 ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerAutomate2.png)
+
+4) Since the SAP server information has not been entered in the flow, the flow wont be ready to use and you will see the image, click on 'save as new flow' and edit the information in the flow editor.
+
+![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/PowerautomateImport4.png)
 
 
 Note : 
