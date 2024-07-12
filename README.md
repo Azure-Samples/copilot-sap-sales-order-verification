@@ -36,7 +36,7 @@ This repository contains Power Automate flows and a detailed PDF with steps on h
 
 
 ## Getting Started
-Follow the detailed steps provided in the PDF to set up the scenario in Copilot Studio and customize it according to your business needs.
+Follow the detailed steps provided in the PDF to set up the scenario in Copilot Studio and customize it according to your business needs. The PDF is named "Steps to recreate the scenario.pdf" on this repo, make sure to download to PDF to access the links.
 
 ## Steps to import the Power Automate Flow in your own environment
 1) Go to my flows in Power Automate and Click on import, under import click on "Import Package
