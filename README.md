@@ -7,6 +7,7 @@ To demonstrate how seamless and easy it is to utilize AI using Microsoft AI tool
 There are two scenarios 1 being a basic one and 2 with enahnacements to the first one inlcuding Adaptive Cards and Principal Propagation.
 
 ## Scenario Overiew and steps for scenario 1
+Be sure to read [this blog ](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/streamlining-sap-processes-with-azure-openai-copilot-studio-and/ba-p/4164338) on the Microsoft Tech Community for a more detailed description of this scenario.
 
 ### 1. Customer Inquiry and Complaint.
 A customer contacts a salesperson with a complaint about a delayed order.
@@ -22,6 +23,7 @@ After identifying the issue, the salesperson uses AI to generate a report summar
 
  
  ##  Scenario Overiew and steps for scenario 2
+ Be sure to read [this blog ](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/enhancing-copilot-studio-extensions-for-sap-by-using-adaptive/ba-p/4187096) on the Microsoft Tech Community for a more detailed description of this scenario.
 
 ### 1. Finidng Replacements.
 The salesperson asks the Copilot to help her look through all the materials in the SAP system to find the best replacement.
