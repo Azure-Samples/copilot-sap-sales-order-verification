@@ -37,8 +37,18 @@ The salesperson now decides to update the sales order with the new material and 
  [![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/youtubevideo.png.png)](https://youtu.be/on33yMX4je4)
 
 ## Technologies in Play
+There are two  SAP connectors on the Power Platform that can be made use of to recreate this scenario:
 
+1)The RFC connector:
   ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/scenariotechincalflow.png)
+  <br />
+  <br />
+  <br />
+
+2)The new SAP OData connector with SSO using Microsoft Entra ID:
+
+ ![Alt text](https://github.com/Azure-Samples/copilot-sap-sales-order-verification/blob/main/Odataconnectorflow.png)
+
   
 This scenario showcases the integration of various Microsoft technologies, including:
 - Copilot Studio
@@ -55,6 +65,7 @@ This repository contains Power Automate flows and a detailed PDF with steps on h
 Follow the detailed steps provided in the PDF to set up the scenario in Copilot Studio and customize it according to your business needs. The PDF is named "Steps to recreate the scenario.pdf" for scenario 1 on this repo, make sure to download to PDF to access the links.
 For scenario 2, the instructions are in the PDF "Steps to recrate scenario -2 . pdf" and the flows and JSONs (for the adaptive card) have a commit description of "Scenario 2 flows".
 
+The steps to recreate the entire scenario using the SAP OData connector are in the PDF named "Steps to recreate the Scenario - OData"
 
 ## Steps to import the Power Automate Flow in your own environment
 1) Go to my flows in Power Automate and Click on import, under import click on "Import Package".
