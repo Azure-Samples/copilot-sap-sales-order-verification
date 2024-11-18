@@ -1,0 +1,77 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+
+     {"type": "Image",
+      "url": "https://logo-logos.com/2016/10/SAP_logo.png",
+      "altText": "Image 3",
+      "size": "Medium"
+         },
+    {
+      "type": "TextBlock",
+      "text": "Replace Item in sales order",
+      "weight": "Bolder",
+      "size": "Large"
+    },
+    {
+      "type": "Input.Text",
+      "id": "orderNumber",
+      "placeholder": "Order Number",
+      "label": "Order Number",
+      "isRequired": true,
+      "errorMessage": "Please enter the order number."
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please provide the following details to change the order for item you want to remove:",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "Input.Text",
+      "id": "removeMat",
+      "placeholder": "Material Number",
+      "label": "Material Number",
+      "isRequired": true,
+      "errorMessage": "Please enter the order number."
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please provide the following details to change the order for item you want to add:",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "Input.Text",
+      "id": "unblockDate",
+      "placeholder": "Material Number",
+      "label": "Material Number",
+      "isRequired": true,
+      "errorMessage": "Please enter the Material Number."
+    },
+    {
+      "type": "Input.Text",
+      "id": "priority",
+      "placeholder": "Quantity",
+      "label": "Quantity",
+      "isRequired": true,
+      "errorMessage": "Please enter the quantity."
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "action": "unblockOrder",
+        "matno": "${removeMat}",
+        "VBELN": "${orderNumber}",
+        "UNBLOCK_DATE": "${unblockDate}",
+        "PRIORITY": "${priority}"
+      }
+    }
+  ]
+}
+

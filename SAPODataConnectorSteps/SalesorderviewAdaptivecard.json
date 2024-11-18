@@ -1,0 +1,85 @@
+{
+  type: "AdaptiveCard",
+  version: "1.0",
+  body: [
+    {
+      type: "Container",
+      items: [
+        {
+          type: "Image",
+          url: "https://logo-logos.com/2016/10/SAP_logo.png",
+          altText: "Image 3",
+          size: "Medium"
+        },
+        {
+          type: "TextBlock",
+          text: "Sales Order Data",
+          weight: "Bolder",
+          size: "Medium"
+        },
+        {
+          type: "ColumnSet",
+          columns: [
+            {
+              type: "Column",
+              width: "auto",
+              items: [
+                {
+                  type: "TextBlock",
+                  text: "Sales Order Number",
+                  weight: "Bolder"
+                },
+                {
+                  type: "TextBlock",
+                  text: Topic.salesOrderNumber
+                }
+              ]
+            },
+            {
+              type: "Column",
+              width: "auto",
+              items: [
+                {
+                  type: "TextBlock",
+                  text: "Delivery Status",
+                  weight: "Bolder"
+                },
+                {
+                  type: "TextBlock",
+                  text: Topic.activestatus
+                }
+              ]
+            },
+            {
+              type: "Column",
+              width: "auto",
+              items: [
+                {
+                  type: "TextBlock",
+                  text: "Delivery Block Status",
+                  weight: "Bolder"
+                },
+                {
+                  type: "TextBlock",
+                  text: Topic.DeliveryBlock
+                  color: "attention",
+                  weight: "Bolder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          type: "TextBlock",
+          text: "Line Items:",
+          weight: "Bolder"
+        },
+        {
+          type: "TextBlock",
+          text: Topic.Orderinfo
+        }
+        
+      ]
+    }
+  ]
+}

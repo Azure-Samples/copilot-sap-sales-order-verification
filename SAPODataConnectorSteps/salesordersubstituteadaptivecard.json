@@ -1,0 +1,28 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+          "type": "TextBlock",
+          "text": "Enter the sales order number:",
+          "weight": "Bolder",
+          "size": "Medium"
+        },
+    {
+      "type": "Input.Text",
+      "id": "salesOrderNumber",
+      "placeholder": "Enter Sales Order Number",
+      "errorMessage": "Sales Order Number is required"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "action": "submitSalesOrderNumber"
+      }
+    }
+  ]
+}
