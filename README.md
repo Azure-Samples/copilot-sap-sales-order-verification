@@ -64,7 +64,7 @@ This repository contains Power Automate flows and a detailed PDF with steps on h
 ## Getting Started
 
 Follow the detailed steps and material provided in the SAPRFCConnector folder to set up the scenario in Copilot Studio and customize it according to your business needs. The PDF with the instructions is named "Steps to recreate the scenario.pdf" for scenario 1 on this repo, make sure to download to PDF to access the links.
-For scenario 2, the instructions are in the SAPRFCConnector folder in the PDF "Steps to recrate scenario -2 . pdf" and the flows and JSONs (for the adaptive card) have a commit description of "Scenario 2 flows".
+For scenario 2, the instructions are in the SAPRFCConnector folder in the PDF "Steps to recrate scenario -2 . pdf".
 
 The steps and material to recreate the entire scenario using the SAP OData connector are in the SAPODataConnector folder in the PDF named "Steps to recreate the Scenario - OData"
 
