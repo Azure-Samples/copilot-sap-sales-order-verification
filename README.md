@@ -62,10 +62,11 @@ This scenario showcases the integration of various Microsoft technologies, inclu
 This repository contains Power Automate flows and a detailed PDF with steps on how to build out this scenario using these flows in Copilot Studio. 
 
 ## Getting Started
-Follow the detailed steps provided in the PDF to set up the scenario in Copilot Studio and customize it according to your business needs. The PDF is named "Steps to recreate the scenario.pdf" for scenario 1 on this repo, make sure to download to PDF to access the links.
-For scenario 2, the instructions are in the PDF "Steps to recrate scenario -2 . pdf" and the flows and JSONs (for the adaptive card) have a commit description of "Scenario 2 flows".
 
-The steps to recreate the entire scenario using the SAP OData connector are in the PDF named "Steps to recreate the Scenario - OData"
+Follow the detailed steps and material provided in the SAPRFCConnector folder to set up the scenario in Copilot Studio and customize it according to your business needs. The PDF with the instructions is named "Steps to recreate the scenario.pdf" for scenario 1 on this repo, make sure to download to PDF to access the links.
+For scenario 2, the instructions are in the SAPRFCConnector folder in the PDF "Steps to recrate scenario -2 . pdf" and the flows and JSONs (for the adaptive card) have a commit description of "Scenario 2 flows".
+
+The steps and material to recreate the entire scenario using the SAP OData connector are in the SAPODataConnector folder in the PDF named "Steps to recreate the Scenario - OData"
 
 ## Steps to import the Power Automate Flow in your own environment
 1) Go to my flows in Power Automate and Click on import, under import click on "Import Package".
